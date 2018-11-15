@@ -1,14 +1,4 @@
 spring:
-  profiles:
-    active:
-    - dev
- ---
- spring:
     profiles: dev
     application:
-        name: config-4-dev
- ---
- spring:
-    profiles: test
-    application:
-        name: config-3-test
+        name: config-dev
