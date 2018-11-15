@@ -6,9 +6,9 @@ spring:
  spring:
     profiles: dev
     application:
-        name: config-dev
+        name: config-1-dev
  ---
  spring:
     profiles: test
     application:
-        name: config-test
+        name: config-2-test
