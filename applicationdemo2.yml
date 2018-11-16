@@ -13,4 +13,5 @@ pi: 3.14
 #定义一个数值3.14 
 hasChild: true 
 #定义一个boolean值 
-name: '你好YAML' #定义一个字符串
+name: '你好YAML'  
+#定义一个字符串
