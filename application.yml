@@ -1,4 +1,11 @@
-spring:
-    profiles: dev
-    application:
-        name: config-dev
+my:
+ servers:
+  - dev.com
+  - test.com
+environment:
+ dev:
+  ur: http://dev.com
+  name: config-dev
+ prod:
+  url: http://foo.com
+  name: config-prod
